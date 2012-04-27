@@ -56,6 +56,10 @@ GtkWindow:backdrop {
     color: @theme_unfocused_fg_color;
 }
 
+MetaWindow {
+    border-radius: 10px;
+}
+
 * {
     background-color: @theme_bg_color;
 }
