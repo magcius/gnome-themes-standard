@@ -56,7 +56,7 @@ GtkWindow:backdrop {
     color: @theme_unfocused_fg_color;
 }
 
-MetaWindow {
+MetaUIFrame {
     border-radius: 10px 10px 0 0;
     background-color: rgba(255, 0, 0, 0.6);
     background-clip: border-box;
@@ -66,8 +66,7 @@ MetaWindow {
     text-shadow: 1px 1px black;
 }
 
-MetaWindow:backdrop {
-    background-color: green;
+MetaUIFrame:backdrop {
 }
 
 * {
